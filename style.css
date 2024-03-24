@@ -22,6 +22,22 @@ body {
     font-weight: 400;
 }
 
+.cabecalho {
+    background-color: #00030C;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.contas {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 200;
+    text-decoration: none;
+    color: var(--cor-branco-principa);
+}
+
 .principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
